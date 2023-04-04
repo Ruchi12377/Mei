@@ -1,0 +1,63 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+  
+#canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #069baf;
+}
+
+#body {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+main {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    text-align: center;
+}
+
+.title {
+    color: white;
+    filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.6));
+    font-size: 3vw;
+    margin: 20px;
+}
+
+
+.lyrics {
+    background-color: white;
+    filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.6));
+    border-radius: 20px;
+    width: 64vw;
+    max-width: 800px;
+    margin: 20px;
+    font-size: 1vw;
+}
+
+.back {
+    display: flex;
+    align-items: center;
+    color: whitesmoke;
+    font-size: 20px;
+    text-decoration-line: none;
+}
+
+.back img {
+    height: 32px;
+}
+
+.back-item {
+    margin: 12px 4px;
+}
